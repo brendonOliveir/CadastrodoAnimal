@@ -1,0 +1,43 @@
+@import "./home.css";
+@import "./login.css";
+
+body{
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    color: #3C2B24;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#corpo {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: ; */
+    padding-bottom: 15px;
+}
+
+#formulario {
+    padding: 15px;
+    /* background-color: ; */
+    border: solid;
+    border-radius: 13px;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    color: blue;
+}

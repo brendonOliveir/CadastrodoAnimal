@@ -1,0 +1,150 @@
+@import "./home.css";
+@import "./login.css";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 150px; */
+    padding-bottom: 15px;
+}
+
+.logo {
+    color: #3C2B24;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    font-family: Poppins;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 17px;
+    background-color: #F58B61;
+    border-radius: 13px;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    display: block;
+    color: #3C2B24;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+.navbar li:hover > a {
+    color: #d0d0d0;
+}
+
+.navbar li ul {
+    display: none;
+    position: absolute;
+    left: -60px;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 15px #a0a0a040;
+    list-style-type: none;
+    min-width: 200px;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+.login {
+    color: #3C2B24;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-intro{
+    border-top: 2px solid #EB5A21;
+    border-bottom: 2px solid #EB5A21;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-info h1{
+    color: #31231E;
+}
+
+.text-info p{
+    color: #9f9f9f;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.campo-busca input{
+    height: 35px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.campo-busca button{
+    width: 170px;
+    height: 40px;
+    background: #EC6A37;
+    color: #3C2B24;
+    border: 2px solid #E24E1B;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.como-funciona h1{
+    text-align: center;
+    color: #3C2B24;
+}
+
+.cards-etapas{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.etapa img{
+    width: 80px;
+    height: 80px;  
+}
+
+.etapa h4{
+    color: #52362D;
+}
+
+.etapa p{
+    color: #9f9f9f;
+    max-width: 350px;
+}

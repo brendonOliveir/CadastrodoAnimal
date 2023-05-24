@@ -1,0 +1,67 @@
+
+
+.bg-voltar{
+    background: #F58B61;
+    margin-bottom: 80px;
+}
+
+.icon-voltar{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon-voltar a{
+    color: #473027;
+}
+
+.container h1{
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    color: #473027;
+}
+
+.info-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-login label {  
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #654236;
+}
+
+.info-login button{
+    width: 170px;
+    height: 46px;
+    background: #EC6A37;
+    color: #3C2B24;
+    border: 2px solid #E24E1B;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+.info-login button:hover{
+    background-color: #E24E1B;
+}
+
+.info-login input{
+    margin-top: 8px;
+    width: 417px;
+    height: 30px;
+    border: 2px solid #DBDBDB;
+    border-radius: 5px;
+}
+
+.info-campo{
+    margin-bottom: 8px;
+}
+
+

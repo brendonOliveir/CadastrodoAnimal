@@ -1,0 +1,16 @@
+.conteudo{
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    text-align: center;
+   
+   
+ 
+} 
+.quemsomos{
+    background-color: white;
+    display:inline-flex;
+    align-items:center;
+    justify-content: space-evenly;
+ }
+

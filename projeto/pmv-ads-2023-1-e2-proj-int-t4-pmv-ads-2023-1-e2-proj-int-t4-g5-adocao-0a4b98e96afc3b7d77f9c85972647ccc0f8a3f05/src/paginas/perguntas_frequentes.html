@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/perg_freq.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+  <title> Perguntas frequentes | Adote um amigo</title>
+  <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head>
+
+<body>
+  <header class="header">
+    <span tabindex="1" class="logo">LOGO</span>
+    <ul class="navbar">
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="buscar_pet.html">Buscar Pet</a></li>
+      <li><a href="anunciar_pet.html">Anunciar Pet</a></li>
+      <li><a href="canal_denuncia.html">Canal de Denúncias</a></li>
+      <li>
+        <a href="#">Sobre</a>
+        <ul>
+          <li><a href="quem_somos.html">Quem Somos</a></li>
+          <li><a href="perguntas_frequentes.html">Perguntas Frequentes</a></li>
+        </ul>
+      </li>
+    </ul>
+    <a href="login.html" class="login">ENTRAR</a>
+  </header>
+  <br><br>
+  <h1 style="text-align: center;">Perguntas Frequentes</h1>
+  <br><br><br>
+  <div class="secao_perguntas">
+  <div class="faq">
+    <h3>Qual a idade mínima para adotar um animal?</h3>
+    <p>A idade mínima para adotar um animal é de 18 anos.</p>
+  </div>
+  <div class="faq">
+    <h3>Como faço para adotar um animal?</h3>
+    <p> Primeiro, escolha o animal que deseja adotar. Você deve entrar em contato com o anunciante por meio do número de
+      contato disponível e preencher o termo de responsabilidade para adoção.</p>
+  </div>
+  <div class="faq">
+    <h3>Quanto custa adotar um animal??</h3>
+    <p>A adoção é gratuita. Você deve entrar em contato com o anunciante por meio do número de contato disponível e
+      preencher o termo de responsabilidade para adoção.</p>
+  </div>
+  <div class="faq">
+    <h3>Posso adotar um animal se eu já tiver outros animais em casa?</h3>
+    <p>Sim, é possível, mas é importante garantir que os animais sejam compatíveis e que haja espaço suficiente para
+      todos. Além disso, é importante apresentá-los de forma adequada para garantir uma transição suave</p>
+  </div>
+
+  <div class="faq">
+    <h3>Como posso saber se o animal que quero adotar é adequado para minha casa? </h3>
+    <p>O anúncio contém detalhes sobre a personalidade,raça, tamanho e outros detalhes específicos sobre o animal.</p>
+  </div>
+  <div class="faq">
+    <h3>Posso adotar um animal se eu morar em um apartamento?</h3>
+    <p>Sim, é possível adotar um animal de estimação enquanto se vive em um apartamento. No entanto, é importante
+      considerar o tamanho do animal e suas necessidades de exercício antes de adotá-lo.</p>
+  </div>
+  <div class="faq">
+    <h3>Posso adotar um animal de outra cidade ou estado?</h3>
+    <p>Sim, mas você precisará providenciar o transporte para o animal.</p>
+  </div>
+  <div class="faq">
+    <h3>Posso adotar um animal como presente para outra pessoa?</h3>
+    <p>Não é recomendado adotar um animal como surpresa para outra pessoa, já que a adoção deve ser uma decisão
+      cuidadosa e consciente.</p>
+  </div>
+  <div class="faq">
+    <h3>Quais são as responsabilidades de um tutor adotivo?</h3>
+    <p>As responsabilidades incluem fornecer abrigo, alimentação adequada, cuidados veterinários, exercício e amor ao
+      animal. Além disso, é importante mantê-lo seguro e em conformidade com as leis locais de animais.</p>
+  </div>
+  <div class="faq">
+    <h3>Como posso contribuir com a causa dos animais mesmo que eu não possa adotar?</h3>
+    <p>Você pode ajudar falando com amigos e familiares sobre nossa organização e divulgando também os eventos de adoção
+      disponibilizados.</p>
+  </div>
+  </div>
+  <div class="espace"></div>
+
+  <script>
+    let faqs = document.querySelectorAll('.faq');
+    faqs.forEach(faq => {
+      faq.addEventListener('click', () => {
+        faqs.forEach(f => f.classList.remove('active'));
+        faq.classList.toggle('active');
+      });
+    });
+  </script>
+  <footer>
+    (31) 0 0000-0000
+    <p> algumacoisa@gmail.com</p>
+    <p>© 2023 Copyright</p>
+  </footer>
+</body>
+
+</html>
